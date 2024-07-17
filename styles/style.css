@@ -132,6 +132,37 @@ main {
   line-height: 143%;
   padding-bottom: 20px;
 }
+/* featured section  */
+.featured-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.featured-img {
+  margin-left: 100px;
+}
+.featured-content {
+  align-items: left;
+  justify-content: center;
+
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.featured-title {
+  color: rgb(10, 8, 38);
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 700;
+}
+.featured-details {
+  color: rgb(108, 108, 108);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
 /* media screen responsive  */
 @media screen and (max-width: 576px) {
   .nav-area,
