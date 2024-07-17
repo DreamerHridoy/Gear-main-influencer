@@ -71,6 +71,20 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+/* sponsors logo  */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.sponsor-logo {
+  margin-top: 140px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin-left: 100px;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
 /* media screen responsive  */
 @media screen and (max-width: 576px) {
   .nav-area,
