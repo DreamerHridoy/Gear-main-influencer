@@ -146,9 +146,8 @@ main {
 .featured-content {
   align-items: left;
   justify-content: center;
-
   margin-top: 40px;
-  margin-left: 80px;
+  /* margin-left: 40px; */
 }
 .featured-title {
   color: rgb(10, 8, 38);
@@ -163,10 +162,17 @@ main {
   font-weight: 700;
   line-height: 28px;
 }
+.footer-section {
+  background-color: rgb(10, 8, 38);
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
 /* media screen responsive  */
 @media screen and (max-width: 576px) {
   .nav-area,
-  .nav-option {
+  .nav-option,
+  .featured-section {
     flex-direction: column;
     width: 100%;
     text-align: center;
@@ -183,8 +189,6 @@ main {
     margin-top: 10px;
     font-size: 2.2rem;
     font-weight: 700;
-    /* line-height: 70px; */
-    /* margin-bottom: 30px; */
   }
   .sponsor-logo {
     grid-template-columns: repeat(1, 1fr);
@@ -195,5 +199,14 @@ main {
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
     justify-items: center;
+  }
+  .featured-img {
+    margin-left: 40px;
+  }
+  .footer-section {
+    background-color: rgb(10, 8, 38);
+    text-align: center;
+    font-size: 1rem;
+    color: white;
   }
 }
